@@ -1,34 +1,35 @@
+
 # 🎓 Student Marks Prediction
 
 ## 📌 About
-This is a basic Machine Learning project that predicts students' marks based on input study-related data.  
-The project is created for learning and understanding regression models in ML.
+This is a simple Machine Learning project that predicts a student's marks based on input features like study-related data.  
+It is built for learning and understanding basic regression concepts in Machine Learning.
 
 ## 🧠 Project Type
 - Supervised Machine Learning
-- Regression Problem
+- Regression Model
 
 ## 🛠️ Technologies Used
 - Python
 - NumPy
 - Pandas
 - Scikit-learn
-- Jupyter Notebook / Python script
 
-## 📊 Project Working
-- Takes student input data (like study hours, etc.)
-- Processes the data
-- Trains a machine learning model
-- Predicts expected marks
+## 📊 How it Works
+- Input student-related data
+- Data is preprocessed
+- Machine Learning model is trained
+- Model predicts expected marks
 
 ## ▶️ How to Run
 1. Open the Python file or Jupyter Notebook  
-2. Run all cells / script step by step  
-3. Enter input values  
-4. Get predicted marks as output
+2. Install required libraries if not installed:
+3. 3. Run the script step by step  
+4. Enter input values  
+5. Get predicted marks as output
 
-## 📁 Files
-- Python file: (your_file_name.py)
+## 📁 Project Files
+- Python file: main.py (or your file name)
 - Dataset (if any)
 
 ## 👤 Author
