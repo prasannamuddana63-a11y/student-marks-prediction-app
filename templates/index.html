@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marks Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>Student Marks Prediction</h1>
+
+    <form method="POST">
+        <input type="number" step="any" name="hours" placeholder="Enter study hours" required>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction %}
+        <h2>Predicted Marks: {{ prediction }}</h2>
+    {% endif %}
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marks Predictor</title>
+</head>
+
+<body>
+
+<h1>Student Marks Prediction</h1>
+
+<form method="POST">
+
+    <input type="number"
+           step="any"
+           name="hours"
+           placeholder="Enter study hours">
+
+    <button type="submit">
+        Predict
+    </button>
+
+</form>
+
+{% if prediction %}
+<h2>Predicted Marks: {{ prediction }}</h2>
+{% endif %}
+
+</body>
+</html>
